@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.nimish.technews.News_feed">
+    <item
+        android:id="@+id/daily_news_share"
+        android:orderInCategory="100"
+        android:title="share"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/daily_news_bookmark"
+        android:orderInCategory="100"
+        android:title="Bookmark"
+        app:showAsAction="never" />
+</menu>
